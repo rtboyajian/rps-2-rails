@@ -39,11 +39,11 @@ private
 
 
     if player == computer
-      "tie"
+      "tied"
     elsif wins.fetch(player) == computer
-      "win"
+      "won"
     else
-      "lose"
+      "lost"
     end 
   end
 end
